@@ -12,6 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @SpringBootApplication：这是一个SpringBoot应用
  */
 //@SpringBootApplication(scanBasePackages = "com.DEAiFISH.boot"/*设置扫描包位置，默认为main方法所在包*/)
+//    @ComponentScan("com.DEAiFISH.boot")
 @SpringBootApplication()
 public class MainApplication {
     public static void main(String[] args) {
