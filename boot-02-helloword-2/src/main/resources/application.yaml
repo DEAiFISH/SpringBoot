@@ -1,0 +1,16 @@
+person:
+  name: 张三
+  age: 18
+  gender: 男
+  pet:
+    - name: 旺财
+      age: 5
+      kind: dog
+    - name: 花花
+      age: 4
+      kind: cat
+  hobbies: [足球,篮球,乒乓球]
+pet:
+  name: 旺财
+  age: 10
+  kind: dog
