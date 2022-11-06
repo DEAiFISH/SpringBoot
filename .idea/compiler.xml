@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="boot-02-helloword-2" />
         <module name="boot-01-helloWord" />
+        <module name="boot-05-web-01" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boot-01-helloWord" options="-parameters" />
       <module name="boot-02-helloword-2" options="-parameters" />
+      <module name="boot-05-web-01" options="-parameters" />
     </option>
   </component>
 </project>
