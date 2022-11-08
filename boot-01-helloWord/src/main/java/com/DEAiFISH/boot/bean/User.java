@@ -1,9 +1,5 @@
 package com.DEAiFISH.boot.bean;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
-
-
 public class User {
     private String name;
     private int age;

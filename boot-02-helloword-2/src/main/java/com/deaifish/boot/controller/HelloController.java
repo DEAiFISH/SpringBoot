@@ -17,11 +17,12 @@ public class HelloController {
 
 
     @RequestMapping("/pet")
-    public Pet pet(){
+    public Pet pet() {
         return pet;
     }
+
     @RequestMapping("/person")
-    public Person person(){
+    public Person person() {
         return person;
     }
 }

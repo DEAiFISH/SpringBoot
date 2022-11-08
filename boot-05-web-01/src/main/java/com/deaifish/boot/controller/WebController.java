@@ -13,17 +13,17 @@ public class WebController {
     }
 
     @PostMapping("/post")
-    public String post(){
+    public String post() {
         return "method_post";
     }
 
     @DeleteMapping("/delete")
-    public String delete(){
+    public String delete() {
         return "method_delete";
     }
 
     @PutMapping("/put")
-    public String put(){
+    public String put() {
         return "method_put";
     }
 }
