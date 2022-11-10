@@ -1,0 +1,6 @@
+Spring:
+  mvc:
+    static-path-pattern: /** #配置静态资源访问前缀
+    hiddenmethod:
+      filter:
+        enabled: true  #开启页面表单的Rest功能
