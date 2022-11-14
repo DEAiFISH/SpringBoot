@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-05-web-02" />
         <module name="boot-02-helloword-2" />
         <module name="boot-01-helloWord" />
         <module name="boot-05-web-01" />
@@ -18,6 +19,7 @@
       <module name="boot-01-helloWord" options="-parameters" />
       <module name="boot-02-helloword-2" options="-parameters" />
       <module name="boot-05-web-01" options="-parameters" />
+      <module name="boot-05-web-02" options="-parameters" />
     </option>
   </component>
 </project>

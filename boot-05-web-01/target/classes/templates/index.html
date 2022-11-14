@@ -6,10 +6,10 @@
 </head>
 <body>
 <h1>index.html</h1>
-<form th:action="@{/login}" method="post">
+<form method="post" th:action="@{/login}">
     <label style="color: red" th:text="${msg}"></label><br>
-    First name: <input type="text" name="firstName"><br>
-    Last name: <input type="password" name="lastName"><br>
+    First name: <input name="firstName" type="text"><br>
+    Last name: <input name="lastName" type="password"><br>
     <input type="submit" value="提交">
 </form>
 </body>
