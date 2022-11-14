@@ -15,17 +15,19 @@ public class TestController {
         return "index";
     }
 
-    @PostMapping("/index")
-    public String main(User user, HttpSession session, Model mode){
+    @PostMapping("/login")
+    public String main(User user,HttpSession session,Model model){
         if(user.getFirstName() != "" && user.getLastName() != ""){
+
             session.setAttribute("loginUser",user);
-            return "redirect:/success.html";
+            return "redirect:success";
+        }else {
+            model.addAttribute("msg","请填写姓、名！");
+            return "index";
         }
-        mode.addAttribute("msg","登录错误！");
-        return "index";
     }
 
-    @GetMapping("/success.html")
+    @GetMapping("/success")
     public String success(){
         return "success";
     }

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.deaifish.boot.bean.User",
+      "sourceType": "com.deaifish.boot.bean.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.first-name",
+      "type": "java.lang.String",
+      "sourceType": "com.deaifish.boot.bean.User"
+    },
+    {
+      "name": "user.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.deaifish.boot.bean.User"
+    }
+  ],
+  "hints": []
+}

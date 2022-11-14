@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.deaifish.boot.bean.Person",
+      "sourceType": "com.deaifish.boot.bean.Person"
+    },
+    {
+      "name": "pet",
+      "type": "com.deaifish.boot.bean.Pet",
+      "sourceType": "com.deaifish.boot.bean.Pet"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.deaifish.boot.bean.Person"
+    },
+    {
+      "name": "person.gender",
+      "type": "java.lang.String",
+      "sourceType": "com.deaifish.boot.bean.Person"
+    },
+    {
+      "name": "person.hobbies",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.deaifish.boot.bean.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.deaifish.boot.bean.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.deaifish.boot.bean.Pet[]",
+      "sourceType": "com.deaifish.boot.bean.Person"
+    },
+    {
+      "name": "pet.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.deaifish.boot.bean.Pet"
+    },
+    {
+      "name": "pet.kind",
+      "type": "java.lang.String",
+      "sourceType": "com.deaifish.boot.bean.Pet"
+    },
+    {
+      "name": "pet.name",
+      "type": "java.lang.String",
+      "sourceType": "com.deaifish.boot.bean.Pet"
+    }
+  ],
+  "hints": []
+}
